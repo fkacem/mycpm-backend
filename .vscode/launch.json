@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MgmtBackendApplication<mgmt-backend>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "tn.telecom.mgmtbackend.MgmtBackendApplication",
+            "projectName": "mgmt-backend",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
