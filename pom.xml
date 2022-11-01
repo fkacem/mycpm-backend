@@ -90,7 +90,7 @@
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
-            <version>8.0.26</version>
+            <version>3.2.1</version>
         </dependency>
     </dependencies>
 
