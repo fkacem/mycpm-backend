@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: tn.telecom.mgmtbackend.MgmtBackendApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.869 s - in tn.telecom.mgmtbackend.MgmtBackendApplicationTests
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 53.488 s <<< FAILURE! - in tn.telecom.mgmtbackend.MgmtBackendApplicationTests
+contextLoads  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.dao.InvalidDataAccessResourceUsageException: error performing isolated work; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: error performing isolated work
+Caused by: org.hibernate.exception.SQLGrammarException: error performing isolated work
+Caused by: java.sql.SQLSyntaxErrorException: Table 'mycpm-db.hibernate_sequence' doesn't exist
+
