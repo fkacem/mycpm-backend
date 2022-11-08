@@ -23,7 +23,8 @@
             "target": {
                 "minikube": {}
             },
-            "watch": true
+            "watch": true,
+            "autoStop": false
         },
         {
             "type": "java",
